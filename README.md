@@ -1,4 +1,4 @@
-# 🎓 VidyaPath — Full-Stack Educational Platform for School Students
+# VidyaPath — Full-Stack Educational Platform for School Students
 
 > **Tagline:** Learn Step by Step. Grow Every Day.  
 > **Academic Domain:** EPICS (Engineering Projects in Community Service) — Educational Technology Division  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 1. Project Overview & Motivation
+## 1. Project Overview & Motivation
 
 In secondary school education across India, millions of students rely on YouTube and open web resources for self-study and board examination preparation. While countless hours of high-quality educational video lectures exist (such as Physics Wallah, NCERT Wallah, and Foundation batches), self-studying students face critical friction points:
 
@@ -18,7 +18,7 @@ In secondary school education across India, millions of students rely on YouTube
 
 ---
 
-## 🏛️ 2. Full-Stack System Architecture
+## 2. Full-Stack System Architecture
 
 VidyaPath uses a clean, decoupled monorepo architecture with distinct **`client/`** and **`server/`** workspaces:
 
@@ -59,7 +59,7 @@ flowchart TD
 
 ---
 
-## 📁 3. Separated Repository Structure
+## 3. Separated Repository Structure
 
 ```text
 VidyaPath/
@@ -71,7 +71,7 @@ VidyaPath/
 ├── .env                       # Local environment configuration
 ├── README.md                  # Comprehensive platform documentation
 │
-├── client/                    # 🎨 React 19 + TypeScript Frontend
+├── client/                    # React 19 + TypeScript Frontend
 │   ├── package.json           # Frontend dependencies & scripts
 │   ├── vite.config.ts         # Vite config with Tailwind v4 & /api proxy to :5000
 │   ├── index.html             # HTML5 entry template
@@ -95,7 +95,7 @@ VidyaPath/
 │       ├── types/             # Frontend interfaces
 │       └── utils/             # Safe storage helpers
 │
-└── server/                    # 🚀 Express 5 + TypeScript Backend
+└── server/                    # Express 5 + TypeScript Backend
     ├── package.json           # Backend dependencies & scripts
     ├── tsconfig.json          # NodeNext backend TypeScript config
     ├── .env                   # Server environment variables
@@ -114,7 +114,7 @@ VidyaPath/
 
 ---
 
-## 🛠️ 4. Technology Stack
+## 4. Technology Stack
 
 ### Frontend Core (`client/`)
 - **Framework:** React 19 (`react`, `react-dom`)
@@ -133,7 +133,7 @@ VidyaPath/
 
 ---
 
-## ⚡ 5. How to Run
+## 5. How to Run
 
 ### Method 1: Run Both from Root (Single Command — Recommended)
 
@@ -167,7 +167,7 @@ npm run dev
 
 ---
 
-## 🔌 6. REST API Reference
+## 6. REST API Reference
 
 Base URL: `http://localhost:5000/api` (automatically proxied in client dev server as `/api`)
 
@@ -194,7 +194,7 @@ Base URL: `http://localhost:5000/api` (automatically proxied in client dev serve
 
 ---
 
-## 🌐 7. Offline-First Synchronization
+## 7. Offline-First Synchronization
 
 VidyaPath guarantees uninterrupted learning even with intermittent or zero internet connectivity:
 1. **Local State Supremacy:** The React frontend maintains all progress, quiz scores, and study notes in safe browser storage (`localStorage`).
@@ -203,7 +203,7 @@ VidyaPath guarantees uninterrupted learning even with intermittent or zero inter
 
 ---
 
-## 🤝 8. EPICS Academic Project Attribution
+## 8. EPICS Academic Project Attribution
 
 - **Program:** Engineering Projects in Community Service (EPICS)
 - **Focus Area:** Rural & Semi-Urban School Education Technology
@@ -212,6 +212,6 @@ VidyaPath guarantees uninterrupted learning even with intermittent or zero inter
 
 ---
 
-## 📄 9. License
+## 9. License
 
 This project is licensed under the MIT License — free for community educators, schools, and self-studying students.
