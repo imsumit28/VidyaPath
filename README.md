@@ -1,4 +1,4 @@
-# VidyaPath — Full-Stack Educational Platform for School Students
+# VidyaPath — Educational Platform for School Students
 
 > **Tagline:** Learn Step by Step. Grow Every Day.  
 > **Academic Domain:** EPICS (Engineering Projects in Community Service) — Educational Technology Division  
